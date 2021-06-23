@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Authentication"
+AuthUserFile /home/c/cs82023/arkan.network/public_html/admin/.htpasswd
+require valid-user

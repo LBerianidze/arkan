@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="sarafan">
+    <serverData>
+      <paths name="lb">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/public_html/TelegramBot_Sarafon" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="sarafan">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/www/vh379174.eurodir.ru" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

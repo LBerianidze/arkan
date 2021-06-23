@@ -1,0 +1,67 @@
+
+
+// howitwork.scss
+
+
+.hit_box {
+    z-index: 10;
+    position: relative;
+    .hit_icon {
+	    font-size: 46px;
+	}
+	.hit_number h1 {
+	    position: absolute;
+	    top: 50%;
+	    left: 0px;
+	    font-size: 80px;
+	    z-index: -1;
+	    color: #efefef;
+	    right: 0px;
+	    transform: translateY(-50%);
+	}
+}
+
+.working_icons_left,
+.working_icons_right {
+    i{
+		font-size: 22px;
+		position: absolute;
+		top: 100px;
+		background: $gradient;
+		height: 40px;
+		width: 40px;
+		line-height: 40px;
+		border-radius: 50%;
+		z-index: 9;
+		margin-top: 40px;
+    }
+}
+
+.working_icons_left i {
+    left: 63%;
+}
+
+.working_icons_right i {
+    left: 30%;
+}
+
+.video_hit .hit_video_icon{
+	position: absolute;
+    top: 50%;
+    left: 51%;
+    margin-left: -40px;
+    transform: translateY(-50%);
+    outline: none !important;
+    width: 65px;
+    height: 65px;
+    padding-left: 2px;
+    border-radius: 50%;
+    z-index: 4;
+    background: $custom;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    color: $white !important;
+    font-size: 35px;
+    line-height: 65px;
+}

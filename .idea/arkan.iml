@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/Telegram/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/Telegram/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/Telegram/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/Telegram/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/Telegram/vendor/longman/telegram-bot" />
+      <excludeFolder url="file://$MODULE_DIR$/Telegram/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/Telegram/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/Telegram/vendor/ralouphie/getallheaders" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

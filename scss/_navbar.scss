@@ -1,0 +1,98 @@
+
+
+// navbar.scss
+
+
+.custom-nav {
+    padding: 22px 0px;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 999;
+    margin-bottom: 0px;
+    transition: all 0.5s ease-in-out;
+    background-color: transparent;
+	.logo {
+        .logo-light {
+            display: inline-block;
+        }
+        .logo-dark {
+            display: none;
+        }
+    }
+	.navbar-nav {
+		li a {
+		    color: $white;
+		    font-size: 16px;
+		    background-color: transparent !important;
+		    padding: 7px 0 !important;
+		    position: relative;
+		    margin: 0 12px;
+		    transition: all 0.4s;
+		}
+		li{
+            &.active a{
+                color: $custom;
+            }
+            &:hover a{
+                color: $custom;
+            }
+            &:active a{
+                color: $custom;
+            }
+        }
+	}
+	.navbar-toggler {
+	    font-size: 28px;
+	    margin-top: 2px;
+	    margin-bottom: 0px;
+	    color: $dark;
+	}
+	.navbar-brand.logo img {
+	    height: 28px;
+	}
+	.sign_btn {
+	    background-color: rgba(255, 255, 255, 0.12);
+	    color: $white;
+	}
+	.log_btn {
+	    background-color: transparent;
+	    color:$white;
+	}
+}
+
+.custom-nav.stickyadd{
+	background-color: $white;
+	padding: 16px 0;
+	box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
+	.navbar-nav {
+		li a {
+	    	color: rgba(0, 0, 0, 0.70);
+	    }	    
+		li{
+            &.active a{
+                color: $custom;
+            }
+            &:hover a{
+                color: $custom;
+            }
+            &:active a{
+                color: $custom;
+            }
+        }	
+	}
+	.logo{
+        .logo-dark {
+            display: inline-block;
+        }
+        .logo-light {
+            display: none;
+        }
+    }
+    .sign_btn {
+	    background-color: rgba(14, 189, 202, 0.12);
+	    color: $custom;
+	}
+	.log_btn {
+	    color: $dark;
+	}
+}

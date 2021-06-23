@@ -1,0 +1,137 @@
+
+
+// responsive.scss
+
+
+@media (max-width: 2560px) {
+	.home-bg {
+	    .curv-img {
+	        bottom: -5px;
+	    }		
+	}
+}
+
+@media (max-width: 991px) and (min-width: 200px) {
+	.working_icons_left,
+	.working_icons_right {
+	    i{
+			display: none;
+	    }
+	}
+}
+
+
+@media (max-width: 768px) {
+    .custom-nav {
+        margin-top: 0px;
+        padding: 10px 0px !important;
+        background-color: $white !important;
+        >.container {
+            width: 90%;
+        }
+        .navbar-nav {
+            margin-top: 0px;
+            li a {
+                margin: 0 0px;
+		        padding: 6px 0;
+		        color: $dark;
+            }
+            li{
+                &.active a {
+                    color: $custom;
+                }
+            }
+        }
+        .logo {
+            padding-top: 0px;
+            .logo-light {
+                display: none;
+            }
+            .logo-dark {
+                display: inline-block !important;
+            }
+        }
+        .sign_btn {
+	        background-color: rgba(14, 189, 202, 0.12);
+	        color: $custom;
+	        display: inline-block;
+	    }
+	    .log_btn {
+	        background-color: transparent;
+	        color: $dark;
+	        display: inline-block;
+	    }
+    }
+
+    .home-bg {
+    	padding: 140px 0 0;
+    	.home-table {
+		    .home-table-center {
+			    .header_title {
+				    font-size: 30px;
+        			line-height: 1.2;
+				}
+				.header_subtitle {
+			        font-size: 14px !important;
+			        line-height: 1.8;
+			    }
+			    .header_btn span {
+			        display: block;
+			    }
+			}
+		}
+    }
+
+    .h-100vh {
+        height: auto;
+        padding: 125px 0 130px 0;
+    }
+
+    .home_clip {
+        clip-path: none;
+    }
+
+    .home-bg-img {
+        padding: 140px 0 0;
+    }
+
+    .home_side_img {
+        padding: 110px 0px 84px;
+    }
+
+    .home-table {
+	    .home-table-center {
+		    .account_box{
+			    padding: 30px 10px;
+			}
+		}
+	}
+
+    .counter_bg{
+		.sof_count {
+		    font-size: 58px;
+        	letter-spacing: 10px;
+		}
+	}
+
+	.section_title {
+	    h3 {
+	        font-size: 22px;
+	    }
+	    .section_subtitle {
+	        line-height: 1.6;
+	    }
+	}
+
+    .price_box {
+        padding: 30px;
+        .text-right{
+	        text-align: left !important;
+	    }
+    }
+    
+    .hide_phone{
+        display: none;
+    }
+
+}

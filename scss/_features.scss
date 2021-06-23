@@ -1,0 +1,55 @@
+
+
+// features.scss
+
+
+.features_one{
+	max-width: 380px;
+	.features_icon {
+	    height: 46px;
+	    width: 46px;
+	    line-height: 46px;
+	    display: inline-block;
+	    font-size: 28px;
+	    text-align: center;
+	    border-radius: 3px;
+	    box-shadow: 0px 0px 0px 4px rgba(14, 189, 202, 0.25);
+	}
+	.features_detail h6 {
+	    font-size: 12px;
+	    letter-spacing: 4px;
+	}
+	.features_border {
+	    height: 3px;
+	    background: $gradient;
+	    width: 30px;
+	    border-radius: 6px;
+	}
+	.features_more{
+		.fea_border_more {
+		    height: 1px;
+		    display: inline-block;
+		    width: 15px;
+		    position: relative;
+		    top: -4px;
+		    background-color: $custom;
+		    transition: all 0.5s;
+		}
+		a {
+		    font-size: 13px;
+		}
+		&:hover .fea_border_more {
+		    width: 30px;
+		}
+	}
+	.features_list p span {
+	    height: 6px;
+	    width: 6px;
+	    border-radius: 50%;
+	    background: $gradient;
+	    display: inline-block;
+	    margin-right: 10px;
+	    position: relative;
+	    top: -2px;
+	}
+}

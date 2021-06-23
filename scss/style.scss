@@ -1,0 +1,48 @@
+/*
+-------------------------------------------------------------------------
+* Template Name    : Sofash - SaaS & Software Html5 Landing Page        * 
+* Author           : ThemesBoss                                         *
+* Version          : 1.0.0                                              *
+* Created          : January 2019                                       *  
+* File Description : Main Css file of the template                      *
+*------------------------------------------------------------------------
+*/
+
+
+/***********************
+    1. BASIC           *
+    2. HELPER          *
+    3. NAVBAR          *
+    4. HOME            *
+    5. ABOUT US        *
+    6. FEATURES        *
+    7. HOW IT WORK     *
+    8. COUNTER         *
+    9. SCREENSHOT      *
+    10.CLIENT LOGO     *
+    11.CLIENTS         *
+    12.PRICING         *
+    13.SUBCRIBE        *
+    14.CONTACT         *
+    15.FOOTER          *
+    16.RESPONSIVE      *
+************************/
+
+@import "variables";
+@import "general";
+@import "helper";
+@import "components";
+@import "navbar";
+@import "home";
+@import "about";
+@import "features";
+@import "howitwork";
+@import "counter";
+@import "screenshot";
+@import "clientlogo";
+@import "clients";
+@import "pricing";
+@import "subcribe";
+@import "contact";
+@import "footer";
+@import "responsive";

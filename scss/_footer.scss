@@ -1,0 +1,48 @@
+
+
+// footer.scss
+
+
+.footer {
+    background-color: #1c1c1f;
+    .footer_detail{
+    	.footer_logo {
+		    background: $gradient;
+		    color: $white;
+		    display: inline-block;
+		    height: 65px;
+		    width: 65px;
+		    line-height: 65px;
+		    border-radius: 50%;
+		}
+		.footer_desc {
+		    color: rgba(255, 255, 255, 0.35);
+		    max-width: 380px;
+		    line-height: 1.8;
+		}
+		.fot_div {
+		    height: 1px;
+		    background-color: rgba(255, 255, 255, 0.02);
+		    width: 100%;
+		    margin: 30px 0px;
+		}
+		.fot_social .social-icon {
+		    border-radius: 50%;
+		    background-color: rgba(255, 255, 255, 0.04);
+		    transition: all 0.5s;
+		    width: 38px;
+		    color: rgba(255, 255, 255, 0.42);
+		    height: 38px;
+		    display: block;
+		    font-size: 18px;
+		    line-height: 38px;
+		    text-align: center;
+		    &:hover {
+			    color: $white !important;
+			}
+		}
+		.copy-right {
+		    color: rgba(255, 255, 255, 0.35);
+		}
+    }
+}

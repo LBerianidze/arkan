@@ -1,0 +1,80 @@
+
+
+// helper.scss
+
+
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+    background-color: $white;
+}
+
+.section_title {
+    .section_title_icon {
+        font-size: 18px;
+        background: $gradient;
+        height: 40px;
+        width: 40px;
+        display: inline-block;
+        color: $white;
+        border-radius: 50%;
+        line-height: 40px;
+    }
+    .section_subtitle {
+        max-width: 500px;
+        font-size: 16px;
+        padding-top: 6px;
+        line-height: 1.8;
+    }
+}
+
+.bg-overlay-gradient {
+    background: $gradient;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-gradient {
+    background: $gradient;
+}
+
+.h-100vh{
+    height: $h-100vh;
+}
+
+.over_margin {
+    margin: 20px;
+}
+
+.bg-overlay {
+    background: $dark;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.vertical-content {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+}
+
+
+

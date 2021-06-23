@@ -1,0 +1,46 @@
+
+
+// pricing.scss
+
+
+.price_box {
+    box-shadow: 0 10px 35px 0 rgba(154, 161, 171, 0.1);
+    position: relative;
+    overflow: hidden;
+    padding: 40px 58px;
+    &.active {
+	    overflow: hidden;
+	    position: relative;
+	    .lable {
+		    background: $custom;
+		    padding: 6px 0;
+		    text-align: center;
+		    width: 200px;
+		    position: absolute;
+		    top: 20px;
+		    right: -65px;
+		    -webkit-transform: rotate(45deg);
+		    transform: rotate(45deg);
+		    h6 {
+			    color: $white;
+			    font-size: 12px;
+			}
+		}
+	}
+	.price_name {
+	    background: $gradient;
+	    border-radius: 30px;
+	    padding: 6px 18px;
+	    font-size: 14px;
+	    display: inline-block;
+	}
+	.plan_price{
+		border-bottom: 1px solid #efefef;
+		h1 {
+		    font-size: 54px;
+		    sub {
+			    font-size: 12px;
+			}
+		}
+	}
+}

@@ -1,0 +1,200 @@
+
+
+// home.scss
+
+
+.home-bg {
+    background: $gradient;
+    position: relative;
+    padding-top: 180px;
+    .bg-overlay-home {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    opacity: 0.3;
+	    width: 100%;
+	    height: 100%;
+		background-size: auto;
+		-webkit-animation: bg-animation 7s ease-in-out infinite;
+		animation: bg-animation 7s ease-in-out infinite;
+	}
+	@-webkit-keyframes bg-animation {
+	    0% {
+	        background-position: top;
+	    }
+	    50% {
+	        background-position: bottom;
+	    }
+	    100% {
+	        background-position: top;
+	    }
+	}
+
+	@keyframes bg-animation {
+	    0% {
+	        background-position: top;
+	    }
+	    50% {
+	        background-position: bottom;
+	    }
+	    100% {
+	        background-position: top;
+	    }
+	}
+    .curv-img {
+	    position: absolute;
+	    width: 100%;
+	    bottom: 0px;
+	    z-index: 1;
+	    svg {
+		    display: block;
+		}
+	}
+	.home-table {
+	    display: table;
+	    width: 100%;
+	    height: 100%;
+	    .home-table-center {
+		    display: table-cell;
+		    vertical-align: middle;
+		    .header_title {
+			    font-size: 44px;
+			    line-height: 1.2;
+			    max-width: 850px;
+			    text-transform: capitalize;
+			}
+			.small_title p {
+			    font-size: 16px;
+			    border-radius: 30px;
+			    padding: 4px 18px;
+			    background-color: rgba(255, 255, 255, 0.1);
+			    display: inline-block;
+			}
+			.header_subtitle {
+			    line-height: 1.8;
+			    max-width: 450px;
+			    color: rgba(255, 255, 255, 0.6) !important;
+			}
+			.home-desk {
+			    position: relative;
+			    top: 60px;
+			    z-index: 100;
+			}
+		}
+	}
+}
+
+
+/*---DEMO 2---*/
+
+.home_side_img {
+    padding: 160px 0px;
+}
+
+
+/*---DEMO 3---*/
+
+.home_clip {
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+}
+
+
+/*---DEMO 4---*/
+
+.subcribe-home form {
+    max-width: 450px;
+    button {
+	    position: absolute;
+	    top: 3px;
+	    right: 3px;
+	    outline: none !important;
+	    border-radius: 30px;
+	    font-size: 14px;
+	    padding: 10px 30px;
+	}
+	input {
+	    padding: 14px 15px;
+	    width: 100%;
+	    font-size: 14px;
+	    color: #4c5667 !important;
+	    outline: none !important;
+	    padding-right: 150px;
+	    padding-left: 20px;
+	    border-radius: 30px;
+	    border: 1px solid #e7e7e7;
+	}
+}
+
+
+/*---DEMO 5---*/
+
+.home-bg-img {
+    background-image: url('../images/bg_home.jpg');
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    padding-top: 180px;
+}
+
+
+/*---DEMO 11---*/
+
+.home-full-gradient {
+    background: $gradient;
+    position: relative;
+}
+
+
+/*---DEMO 13---*/
+
+.bg-dark-video {
+    background-color: $dark;
+    padding-top: 180px;
+}
+
+/*--- LOGIN/SIGN IN/FORGOT---*/
+.home-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+    .home-table-center {
+	    display: table-cell;
+	    vertical-align: middle;
+	    .account_box{
+		    border-radius: 12px;
+		    box-shadow: 10px -10px 0 4px #0ebdca;
+		    padding: 50px 40px;
+		    h5{
+			    font-size: 20px;
+			    max-width: 300px;
+			    line-height: 1.4;
+			}
+			.form-control{
+			    box-shadow: none !important;
+			    color: $white;
+			    height: 46px;
+			    border: none;
+			    border-radius: 3px;
+			    font-size: 14px;
+			    background-color: rgba(255, 255, 255, 0.1);
+			    &::-webkit-input-placeholder {
+				    /* Chrome/Opera/Safari */
+				    color: rgba(255, 255, 255, 0.6);
+				}
+				&::-moz-placeholder {
+				    /* Firefox 19+ */
+				    color: rgba(255, 255, 255, 0.6);
+				}
+				&:-ms-input-placeholder {
+				    /* IE 10+ */
+				    color: rgba(255, 255, 255, 0.6);
+				}
+				&:-moz-placeholder {
+				    /* Firefox 18- */
+				    color: rgba(255, 255, 255, 0.6);
+				}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,29 @@
+
+
+// subcribe.scss
+
+
+.subcribe-newslatter form {
+    max-width: 450px;
+    input {
+	    padding: 14px 15px;
+	    width: 100%;
+	    font-size: 14px;
+	    color: #4c5667 !important;
+	    outline: none !important;
+	    padding-right: 150px;
+	    padding-left: 20px;
+	    border-radius: 5px;
+	    border: 1px solid #e7e7e7;
+	}
+	button {
+	    position: absolute;
+	    top: 4px;
+	    right: 4px;
+	    outline: none !important;
+	    border-radius: 5px;
+	    font-size: 14px;
+	    padding: 10px 30px;
+	    color: $white !important;
+	}
+}

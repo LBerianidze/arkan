@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/Telegram/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/Telegram/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/Telegram/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/Telegram/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/Telegram/vendor/composer" />
+      <path value="$PROJECT_DIR$/Telegram/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/Telegram/vendor/longman/telegram-bot" />
+      <path value="$PROJECT_DIR$/Telegram/vendor/psr/http-message" />
+    </include_path>
+  </component>
+</project>

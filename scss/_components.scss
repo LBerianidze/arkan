@@ -1,0 +1,103 @@
+.bg-dark {
+    background-color: $dark;
+}
+
+.bg-custom {
+    background-color: $custom;
+}
+
+.text-muted {
+    color: $muted !important;
+}
+
+.text-dark {
+    color: $dark !important;
+}
+
+.text-custom {
+    color: $custom !important;
+}
+
+.text-custom-blue {
+    color: $blue;
+}
+
+.btn {
+    padding: 12px 28px;
+}
+
+.btn-sm {
+    padding: 8px 15px;
+}
+
+.btn-rounded {
+    border-radius: 30px !important;
+}
+
+.btn-custom {
+    background-color: #0ebdca;
+    border: 2px solid #0ebdca;
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.5s;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    &:hover{
+        background: $custom-hover;
+	    border-color: $custom-hover !important;
+	    color: $white !important;
+    }
+    &:active {
+        background: $custom-hover;
+	    border-color: $custom-hover !important;
+	    color: $white !important;
+    }
+    &:focus {
+        background: $custom-hover;
+	    border-color: $custom-hover !important;
+	    color: $white !important;
+    }
+    &.active {
+        background: $custom-hover;
+	    border-color: $custom-hover !important;
+	    color: $white !important;
+    }
+    &.focus {
+        background: $custom-hover;
+	    border-color: $custom-hover !important;
+	    color: $white !important;
+    }
+}
+
+.btn-gradient {
+    background: #393e9e;
+    background: -webkit-linear-gradient(to right, #797cd2, #393e9e);
+    background: linear-gradient(to right, #797cd2, #393e9e);
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.5s;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    &:hover{
+	    background: $gradient-hover;
+	    transition: all 0.5s;
+    }
+    &:active {
+        background: $gradient-hover;
+	    transition: all 0.5s;
+    }
+    &:focus {
+        background: $gradient-hover;
+	    transition: all 0.5s;
+    }
+    &.active {
+        background: $gradient-hover;
+	    transition: all 0.5s;
+    }
+    &.focus {
+        background: $gradient-hover;
+	    transition: all 0.5s;
+    }
+}

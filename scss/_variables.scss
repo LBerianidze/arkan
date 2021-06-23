@@ -1,0 +1,32 @@
+
+
+// variables.scss
+
+
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-Light.woff") format("woff");
+}
+
+// Color variables
+
+$dark:#000000;
+$custom:#0ebdca;
+$custom-hover:#0ca9b5;
+$white:#ffffff;
+$blue:#4e74d6;
+$muted:#94989a;
+$gradient:linear-gradient(to right, #797cd2, #393e9e);
+$gradient-hover:linear-gradient(to right, #393e9e, #797cd2);
+
+// Base Css
+
+$h-100vh:100vh;
+$z-index:2;
+
+// Font Family
+
+$font-family: 'Roboto', sans-serif;
+$font-family-secondary: 'Roboto', sans-serif;
+$font-size-base:15px;
+$font-weight-normal:500;

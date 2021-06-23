@@ -1,0 +1,54 @@
+
+
+// clients.scss
+
+
+.testi_boxes {
+    padding: 30px 20px;
+    margin: 0px 15px;
+    border: 1px dashed #e6e6e6;
+    border-radius: 10px;
+    .bus_testi_icon i {
+	    font-size: 26px;
+	    line-height: 50px;
+	    color: $white;
+	    text-align: center;
+	    background: $gradient;
+	    height: 50px;
+	    display: inline-block;
+	    border-radius: 50%;
+	    width: 50px;
+	}
+	.client_user {
+	    font-size: 14px;
+	    position: relative;
+	    top: -5px;
+	}
+	.client_star {
+	    line-height: 0px;
+	}
+	.client_name {
+	    font-size: 16px;
+	}
+}
+
+.owl-theme .owl-controls .owl-page {
+    margin: 20px 0px;
+    span {
+        display: block;
+	    width: 6px;
+	    height: 6px;
+	    margin: 5px 4px;
+	    filter: Alpha(Opacity=50);
+	    opacity: 0.3;
+	    -webkit-border-radius: 20px;
+	    -moz-border-radius: 20px;
+	    border-radius: 20px;
+	    transition: all 0.5s;
+	    background: $custom !important;
+    }
+    &.active span {
+        width: 20px;
+        opacity: 1;
+    }
+}
